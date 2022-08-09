@@ -12,6 +12,8 @@ IF YOU MODIFY THIS PROGRAM OR YOU USE THE DELETE FUNCTION "os.remove (pathFile)"
 
 The original script is from @pantuflip's [DeleteTempFiles](https://github.com/Pantuflip/DeleteTempFiles), before I fixed it to work on my drives and translated some prompts.
 
+# Espanol
+
 Borra archivos "._" , ".DS_Store", "._.DS_Store". Estos archivos son generados despues de usar un disco duro externo o USB en el sistema operativo MAC (OS). Con este programa tu puedes borrar todos estos archivos basura muy fácilemente. Solo debe ingresar la carpeta donde deseas hacer la busqueda.
 
 ¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡  CUIDADO, CUIDADO, CUIDADO  !!!!!!!!!!!!!!!
