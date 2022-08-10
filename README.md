@@ -1,20 +1,13 @@
 # Clean up OSX Files
 
-Deletes files like "._" , ".DS_Store", "._.DS_Store". This files are generated after using a drive with a Mac (OSX) computer. These are extraneous and pollute the file space when using the same drive with a Windows PC. With this script you can delete all such files easily.
+Deletes `._*` and `.DS_Store` files in recursively in all subfolders. These files are generated after using a drive with a Mac (OSX) computer. These are extraneous and pollute the file space when using the same drive with a Windows PC. Deleting these files will not hinder usage on an OSX device, although these files will be re-created.
 
-##  !!!!!!!!!!!!  WARNING, WARNING, ATTENTION, ATTENTION   !!!!!!!!!!!!
+## ⚠️ WARNING: Read before using
 
-**Do not use this script on a boot drive or OSX system drive. This is for external drive use only**
+**Do not use this script on a boot drive or OSX system drive. This is for external/auxiliary drive use only!**
 
-IF YOU MODIFY THIS PROGRAM OR YOU USE THE DELETE FUNCTION "os.remove (pathFile)" INADEQUATELY, YOU CAN DELETE ALL FILES FROM YOUR COMPUTER OR IMPORTANT FILES.
+If you modify this script, or use it on an boot drive, you risk deletion of important system files and could render your device inoperable.
 
 ## Credit
 
-The original script is from @pantuflip's [DeleteTempFiles](https://github.com/Pantuflip/DeleteTempFiles), before I fixed it to work on my drives and translated some prompts.
-
-# Espanol
-
-Borra archivos "._" , ".DS_Store", "._.DS_Store". Estos archivos son generados despues de usar un disco duro externo o USB en el sistema operativo MAC (OS). Con este programa tu puedes borrar todos estos archivos basura muy fácilemente. Solo debe ingresar la carpeta donde deseas hacer la busqueda.
-
-¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡  CUIDADO, CUIDADO, CUIDADO  !!!!!!!!!!!!!!!
-SI MODIFICAS ESTE PROGRAMA Ó USAS LA FUNCIONON DE BORRADO "os.remove(pathFile)" DE MANERA INADECUADA, PUEDES BORRAR TODOS LOS ARCHIVOS DE TU COMPUTADOR O ARCHIVOS IMPORTANTES.
+The original script is from @pantuflip's [DeleteTempFiles](https://github.com/Pantuflip/DeleteTempFiles), before I fixed it to work on my drives and translated various prompts and text to English.
